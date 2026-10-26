@@ -1,0 +1,24 @@
+# SNAP datasets (download separately, see README)
+*.txt
+*.txt.gz
+!requirements.txt
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Spark / sbt / IDE
+spark-warehouse/
+metastore_db/
+derby.log
+checkpoint/
+target/
+project/target/
+.bsp/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
